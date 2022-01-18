@@ -90,8 +90,8 @@ func main() {
     Users = []User{
         // Article{Id: "1", Title: "Hello", Desc: "Article Description", Content: "Article Content"},
         // Article{Id: "2", Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
-		User{ id: 1, fname: "Nidhey", city: "Nagpur", phone: "9096810774", height: 7.0, married: false },
-		User{ id: 2, fname: "Riwtik", city: "Nagpur", phone: "9096810775", height: 6.7, married: false },
+		User{id: 1, fname: "Nidhey", city: "Nagpur", phone: "9096810774", height: 7.0, married: false},
+		User{id: 2, fname: "Riwtik", city: "Nagpur", phone: "9096810775", height: 6.7, married: false},
     }
     handleRequests()
 }
