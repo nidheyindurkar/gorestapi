@@ -35,7 +35,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 
 func returnAllArticles(w http.ResponseWriter, r *http.Request) {
     fmt.Println("Endpoint Hit: returnAllArticles")
-    json.NewEncoder(w).Encode(User)
+    json.NewEncoder(w).Encode(Users)
 }
 
 func returnSingleArticle(w http.ResponseWriter, r *http.Request) {
